@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsolFluentapp
 {
-    class Calcul
+   public class Calcul
     {
+        public int Add(int x, int y)
+        {
+
+            return x + y;
+        }
     }
 }
